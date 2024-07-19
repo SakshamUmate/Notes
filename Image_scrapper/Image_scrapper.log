@@ -1,0 +1,493 @@
+2024-01-06 18:56:16,592 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.102.156.122:8000
+2024-01-06 18:56:16,592 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-06 18:56:31,984 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 18:56:31] "GET / HTTP/1.1" 200 -
+2024-01-06 18:56:32,184 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 18:56:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-06 18:56:32,184 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 18:56:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-06 18:56:32,216 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 18:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-06 18:56:53,311 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-06 18:56:53,695 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=Durgamatapicture&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-06 18:56:54,121 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:54,357 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTesHhUKFComMPbNoVpNuKkfEYvu5DeDP8y4868lp43B2MpuNzMThpdtaSWtfI&s HTTP/1.1" 200 4724
+2024-01-06 18:56:54,359 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:54,671 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT0E79XezPQyMlcKmmhkOy-rFj78kYgKtIoXouKbjs_o_u3r8Lf70mBAozLTg&s HTTP/1.1" 200 5471
+2024-01-06 18:56:54,674 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:54,935 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS2jJ_ffL4KkB5vhZQwHDSh-LKMBVyj2xlqaX85DoxamUP-lxxv4hjWzMyzzC0&s HTTP/1.1" 200 5315
+2024-01-06 18:56:54,938 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:55,279 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTcxBMxYSLi9r_vKuzLYA8mGpkBznCWXCSZlfhuskZW__xg-8RrnFR7uwo-lhg&s HTTP/1.1" 200 4573
+2024-01-06 18:56:55,282 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:55,575 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT-mtyKB8OFFluxfMbd4011x1siAW9tZFqVNMWKO2vQy8pDFIwm1qcmD5NFJWs&s HTTP/1.1" 200 2999
+2024-01-06 18:56:55,578 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:55,864 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQj73gWvO507OfOJNgF2oc2lM96IFPEePEtrr2QIKfv-Z4WLipJGykQdKDTVA&s HTTP/1.1" 200 5292
+2024-01-06 18:56:55,868 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:56,090 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS14AC1TOdA7N4V8bE7VpYuPV8qx0WxRwaiipmO5feDDw7dQQqwX9qyuf35KGM&s HTTP/1.1" 200 5326
+2024-01-06 18:56:56,093 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:56,421 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTUZ_N0m5Z16qGCdQ_l_h8xTjoS10w3mGxp38d1KHXS7dniMBk7oteQYGMuvQ&s HTTP/1.1" 200 7458
+2024-01-06 18:56:56,423 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:56,761 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRvra8Y8FK4LlMJVNyj6J7x3jeGWd49C3RhvUOreQRdhgFMgtrc3BhiuFJPBIc&s HTTP/1.1" 200 8018
+2024-01-06 18:56:56,764 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:57,086 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQBQyyh7QuPRq-99kYdH4qs6IMWCmRQ8gHhuyJtdZ4BXRjiFm-SbGyPaFh_TQ&s HTTP/1.1" 200 5836
+2024-01-06 18:56:57,089 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:57,309 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTxt8VS7RzmuCvnW0Z02SST7BBPTqKChi4Cz75PCaVWZL9n84oiylExnUJv1A&s HTTP/1.1" 200 7600
+2024-01-06 18:56:57,316 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:57,642 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSn0UrOcx7vmy97EJ4O_inXFHlj5igUwhyp7wy8CdlBvYMK7Rp1vAqxjsrvzsw&s HTTP/1.1" 200 5788
+2024-01-06 18:56:57,645 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:57,950 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQmlllgWaPFfKlUs_RrrRvGmoq0Ho6pfTDp3tCe7g-dTYeYMZz9bXG0YMoFww&s HTTP/1.1" 200 5112
+2024-01-06 18:56:57,953 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:58,181 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT6xMZl0XCr1FdSllcuTSEMSqER20RlvcoTkyOL1Yy4I8G4zz3YBC9VYSnGeA&s HTTP/1.1" 200 10000
+2024-01-06 18:56:58,186 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:58,478 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSpu7pwW1vUDCLUnid-9vyv5BoM-c3nrkhBkIyVka4VoPht-hjZ3pY74UTYHOQ&s HTTP/1.1" 200 5956
+2024-01-06 18:56:58,482 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:58,788 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRC5CKz9AqROVZzDArFV1iwtbz9ObHr5m4Mb1cvS6UIyUvI0ivc1Fad7kQtLg&s HTTP/1.1" 200 5456
+2024-01-06 18:56:58,791 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:59,010 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRSgblrtOOc_xEFj5Qe3n7uSTFb1IcvWOpIjBjFCkvFhpLAMERKaQE3jnKG6Sw&s HTTP/1.1" 200 4384
+2024-01-06 18:56:59,013 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:59,297 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS9yZ4d2xpQNdB-kMR4e-izuHSR9kGr22KSyP2h2JlWL2BhM4V17bVHErBLdg&s HTTP/1.1" 200 4601
+2024-01-06 18:56:59,299 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:59,588 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTdebRex_exHpyk78Z-aNMCNY46DjmAnBDlQXgheRRSWT5_GGueCdbEWFHUaA&s HTTP/1.1" 200 4344
+2024-01-06 18:56:59,591 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 18:56:59,805 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT6ZFXW7bc6YFVILckOdr740xjG_TyUHSo4fvQRP9-B1rq80LUTImk472TDRg&s HTTP/1.1" 200 5116
+2024-01-06 18:57:03,637 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 18:57:03] "POST /review HTTP/1.1" 200 -
+2024-01-06 19:21:40,160 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.102.156.122:8000
+2024-01-06 19:21:40,160 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-06 19:21:51,175 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 19:21:51] "GET / HTTP/1.1" 200 -
+2024-01-06 19:21:51,304 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 19:21:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-06 19:21:51,304 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 19:21:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-06 19:22:22,801 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-06 19:22:23,141 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=hanumanpictures&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-06 19:22:23,567 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:23,835 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR-855UjKSSKj0JIuOXu5c1lEzTrYUpf8P904s8UF-lm7SpBz7YEu774cKyiA&s HTTP/1.1" 200 7028
+2024-01-06 19:22:23,837 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:24,060 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQKL7ZNHpNUMh0GFPhTAK1zIjH3E0Wkud4CVNsd1NqtDae-saGmXxjU2dBGX0k&s HTTP/1.1" 200 3636
+2024-01-06 19:22:24,062 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:24,270 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRc8-JiQV50viowAFUVS97x7qoVpwT0RQNtCf0ivAkU2CKYMkzJ66OEpQqbWw&s HTTP/1.1" 200 5209
+2024-01-06 19:22:24,273 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:24,527 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRPdXajxmZQTJlFi8kTZZoNqRJwwlSlHZaKu4Bo5JR3FgVWlvOKpntjCGi4wEc&s HTTP/1.1" 200 4109
+2024-01-06 19:22:24,530 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:24,758 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTtRxLwuJIETEvO6I8V1aQ8-I553xxnMW6sEDBbHFA9gZ1HnP1nlDiWUSjBQlQ&s HTTP/1.1" 200 4752
+2024-01-06 19:22:24,760 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:24,986 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ8pBblV8SPQPBnBMo1PR6hYZ2IxcjUoS2UFDDW3RVsk33WsbMeJBtFYLqscS8&s HTTP/1.1" 200 2985
+2024-01-06 19:22:24,988 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:25,288 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQdzpnHKUcddzyg__wqL36neec1UT4a6OzzsS-EuU9kynDAqOVPJlGPHO3FAQ&s HTTP/1.1" 200 2224
+2024-01-06 19:22:25,290 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:25,542 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTEMquuNxet7HP9vjl1wvVZqWXsc8Ormh8HZ826_bNQMbtQLYR4C5aC6GQ3Y1A&s HTTP/1.1" 200 3332
+2024-01-06 19:22:25,545 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:25,793 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSX8yJq48f5fkPh2RBb0sR8tW_4tJsgLGDz815kHN4A3YFTzdcbEdkRLHdyJQ&s HTTP/1.1" 200 4464
+2024-01-06 19:22:25,796 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:26,080 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQymyTXFOgMcgfqywvpTyefkQj9tixMxYqfJPK2pYKyaEKpfhggYk9zVhj4EQ&s HTTP/1.1" 200 3762
+2024-01-06 19:22:26,082 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:26,300 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRGglhy-Hpjyg7l30jFvViBFC5ZTv5ClrvJ-qIzjblZvqvzSlYE3UGsgbV_ew&s HTTP/1.1" 200 4560
+2024-01-06 19:22:26,302 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:26,627 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSUtpnDkCYojgKEPVeMxOlt8Ur1C-VWi0m1McCrG2tda1CKmtLBJDpdnzBQ7Q8&s HTTP/1.1" 200 3823
+2024-01-06 19:22:26,629 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:26,836 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT7SBAvRcaSH1K8sx3L8TNe5iQFCZW6LeJrQmTD59u44PiKIDLuoiwdsXAEBA&s HTTP/1.1" 200 4641
+2024-01-06 19:22:26,838 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:27,062 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT2ETSi3yVNnhy6bJCOfnBaHTfmaH9YdjUv1USxYCSIFgUWplGi0XY4l2TD1w&s HTTP/1.1" 200 4976
+2024-01-06 19:22:27,064 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:27,283 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTeECLoERk368_jPEBlt9qk1_goYYr7cbt2MIlbpTWd2KCFAYtL3Pfy8NipHw&s HTTP/1.1" 200 2017
+2024-01-06 19:22:27,285 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:27,602 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRjRPBvklaoi0-Azz1uiGOXtYVBJNfe48Auf7YTCHpVKdS3CJcMs_cEAxvQug&s HTTP/1.1" 200 6106
+2024-01-06 19:22:27,604 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:27,811 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRill-frfCOOoUVVy2jJIZPOxVjbL7kwTZRLHTPKpSxPs0NwtK91PcQFerUYnE&s HTTP/1.1" 200 3281
+2024-01-06 19:22:27,813 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:28,066 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRNC_moH9LhR6nB-nUngnsMRi42a2mtRWAECyNZkaQOoQ2ZpJ2UUuYs_fLtBg&s HTTP/1.1" 200 2264
+2024-01-06 19:22:28,068 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:22:28,322 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ4ei8hgp94fv_vLts6nJxcoBnv4qjbwKTVLaQjGONPL8pk6h2trMKf8AeuIg&s HTTP/1.1" 200 3591
+2024-01-06 19:22:28,325 werkzeug INFO 10.102.156.122 - - [06/Jan/2024 19:22:28] "POST /review HTTP/1.1" 200 -
+2024-01-06 19:22:50,549 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.102.156.122:8000
+2024-01-06 19:22:50,549 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-06 19:22:56,985 werkzeug INFO 127.0.0.1 - - [06/Jan/2024 19:22:56] "GET / HTTP/1.1" 200 -
+2024-01-06 19:22:57,083 werkzeug INFO 127.0.0.1 - - [06/Jan/2024 19:22:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-06 19:22:57,083 werkzeug INFO 127.0.0.1 - - [06/Jan/2024 19:22:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-06 19:23:07,640 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-06 19:23:07,977 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=hanumanpictures&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-06 19:23:08,323 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:08,586 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR-855UjKSSKj0JIuOXu5c1lEzTrYUpf8P904s8UF-lm7SpBz7YEu774cKyiA&s HTTP/1.1" 200 7028
+2024-01-06 19:23:08,588 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:08,895 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQKL7ZNHpNUMh0GFPhTAK1zIjH3E0Wkud4CVNsd1NqtDae-saGmXxjU2dBGX0k&s HTTP/1.1" 200 3636
+2024-01-06 19:23:08,897 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:09,143 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRc8-JiQV50viowAFUVS97x7qoVpwT0RQNtCf0ivAkU2CKYMkzJ66OEpQqbWw&s HTTP/1.1" 200 5209
+2024-01-06 19:23:09,145 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:09,415 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRPdXajxmZQTJlFi8kTZZoNqRJwwlSlHZaKu4Bo5JR3FgVWlvOKpntjCGi4wEc&s HTTP/1.1" 200 4109
+2024-01-06 19:23:09,417 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:09,667 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTtRxLwuJIETEvO6I8V1aQ8-I553xxnMW6sEDBbHFA9gZ1HnP1nlDiWUSjBQlQ&s HTTP/1.1" 200 4752
+2024-01-06 19:23:09,669 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:09,927 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ8pBblV8SPQPBnBMo1PR6hYZ2IxcjUoS2UFDDW3RVsk33WsbMeJBtFYLqscS8&s HTTP/1.1" 200 2985
+2024-01-06 19:23:09,930 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:10,192 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQdzpnHKUcddzyg__wqL36neec1UT4a6OzzsS-EuU9kynDAqOVPJlGPHO3FAQ&s HTTP/1.1" 200 2224
+2024-01-06 19:23:10,194 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:10,411 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTEMquuNxet7HP9vjl1wvVZqWXsc8Ormh8HZ826_bNQMbtQLYR4C5aC6GQ3Y1A&s HTTP/1.1" 200 3332
+2024-01-06 19:23:10,413 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:10,665 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSX8yJq48f5fkPh2RBb0sR8tW_4tJsgLGDz815kHN4A3YFTzdcbEdkRLHdyJQ&s HTTP/1.1" 200 4464
+2024-01-06 19:23:10,667 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:10,904 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQymyTXFOgMcgfqywvpTyefkQj9tixMxYqfJPK2pYKyaEKpfhggYk9zVhj4EQ&s HTTP/1.1" 200 3762
+2024-01-06 19:23:10,906 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:11,127 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRGglhy-Hpjyg7l30jFvViBFC5ZTv5ClrvJ-qIzjblZvqvzSlYE3UGsgbV_ew&s HTTP/1.1" 200 4560
+2024-01-06 19:23:11,130 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:11,397 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSUtpnDkCYojgKEPVeMxOlt8Ur1C-VWi0m1McCrG2tda1CKmtLBJDpdnzBQ7Q8&s HTTP/1.1" 200 3823
+2024-01-06 19:23:11,400 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:11,613 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT7SBAvRcaSH1K8sx3L8TNe5iQFCZW6LeJrQmTD59u44PiKIDLuoiwdsXAEBA&s HTTP/1.1" 200 4641
+2024-01-06 19:23:11,616 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:11,884 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT2ETSi3yVNnhy6bJCOfnBaHTfmaH9YdjUv1USxYCSIFgUWplGi0XY4l2TD1w&s HTTP/1.1" 200 4976
+2024-01-06 19:23:11,886 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:12,096 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTeECLoERk368_jPEBlt9qk1_goYYr7cbt2MIlbpTWd2KCFAYtL3Pfy8NipHw&s HTTP/1.1" 200 2017
+2024-01-06 19:23:12,098 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:12,332 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRjRPBvklaoi0-Azz1uiGOXtYVBJNfe48Auf7YTCHpVKdS3CJcMs_cEAxvQug&s HTTP/1.1" 200 6106
+2024-01-06 19:23:12,334 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:12,557 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRill-frfCOOoUVVy2jJIZPOxVjbL7kwTZRLHTPKpSxPs0NwtK91PcQFerUYnE&s HTTP/1.1" 200 3281
+2024-01-06 19:23:12,559 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:12,780 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRNC_moH9LhR6nB-nUngnsMRi42a2mtRWAECyNZkaQOoQ2ZpJ2UUuYs_fLtBg&s HTTP/1.1" 200 2264
+2024-01-06 19:23:12,782 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-06 19:23:13,039 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ4ei8hgp94fv_vLts6nJxcoBnv4qjbwKTVLaQjGONPL8pk6h2trMKf8AeuIg&s HTTP/1.1" 200 3591
+2024-01-06 19:23:13,041 werkzeug INFO 127.0.0.1 - - [06/Jan/2024 19:23:13] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:42:49,860 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.106.0.186:8000
+2024-01-27 13:42:49,861 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-27 13:42:57,359 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:42:57] "GET / HTTP/1.1" 200 -
+2024-01-27 13:42:57,552 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:42:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-27 13:42:57,575 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:42:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-27 13:42:57,619 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:42:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-27 13:43:03,834 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:43:05,206 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=doctors&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:43:05,613 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:05,900 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:43:05,930 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQC74cBCf8KpgUHPtIeZa1RbFVAQveVmmmuGWqXtD1RNZmWwj0RVdHyhsU3jps&s HTTP/1.1" 200 3410
+2024-01-27 13:43:05,930 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:06,214 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQTMbhxfQmu-06Ry-IEdVHPsTACp78_55QQ5DYre9q3xHw-A0nyt8gzcTlNcVY&s HTTP/1.1" 200 2779
+2024-01-27 13:43:06,214 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:06,713 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=doctors&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:43:06,796 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:06,996 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQC74cBCf8KpgUHPtIeZa1RbFVAQveVmmmuGWqXtD1RNZmWwj0RVdHyhsU3jps&s HTTP/1.1" 200 3410
+2024-01-27 13:43:07,012 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,231 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQTMbhxfQmu-06Ry-IEdVHPsTACp78_55QQ5DYre9q3xHw-A0nyt8gzcTlNcVY&s HTTP/1.1" 200 2779
+2024-01-27 13:43:07,233 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,281 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT1OimMrWYss47FTlDUVkdBFHrTgUTUqzAGN86u1lRx79Fjs_XIHPaatfibH2g&s HTTP/1.1" 200 4393
+2024-01-27 13:43:07,297 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,447 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT1OimMrWYss47FTlDUVkdBFHrTgUTUqzAGN86u1lRx79Fjs_XIHPaatfibH2g&s HTTP/1.1" 200 4393
+2024-01-27 13:43:07,449 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,614 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR1z-vcFZ5BeECGhcwlmL0er3cx8JGEuIhxgTbkxsbGazFhqL_qs1YidwWwRo0&s HTTP/1.1" 200 1951
+2024-01-27 13:43:07,630 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,655 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR1z-vcFZ5BeECGhcwlmL0er3cx8JGEuIhxgTbkxsbGazFhqL_qs1YidwWwRo0&s HTTP/1.1" 200 1951
+2024-01-27 13:43:07,657 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,944 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRGCc2jM4LzkKkgic5aVS7gBQj3cWwj5Zex0SAb0W6HO12nblKSJhfLOP2lih0&s HTTP/1.1" 200 4395
+2024-01-27 13:43:07,946 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:07,967 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRGCc2jM4LzkKkgic5aVS7gBQj3cWwj5Zex0SAb0W6HO12nblKSJhfLOP2lih0&s HTTP/1.1" 200 4395
+2024-01-27 13:43:07,969 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,241 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTPO1vD04yoVotUBsOFXgOeO5Qa8sO_ZHSi1OkXUXASSW9Brl_s9EXy0BvCEw&s HTTP/1.1" 200 2937
+2024-01-27 13:43:08,243 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,261 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTPO1vD04yoVotUBsOFXgOeO5Qa8sO_ZHSi1OkXUXASSW9Brl_s9EXy0BvCEw&s HTTP/1.1" 200 2937
+2024-01-27 13:43:08,262 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,537 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:43:08,581 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQuPVEMCWosL881daK-q70Yw3w8VTZnzqIhJPMslQj5WZVkpuCI-30lP0heyA&s HTTP/1.1" 200 4968
+2024-01-27 13:43:08,596 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,597 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQuPVEMCWosL881daK-q70Yw3w8VTZnzqIhJPMslQj5WZVkpuCI-30lP0heyA&s HTTP/1.1" 200 4968
+2024-01-27 13:43:08,597 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,861 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=doctors&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:43:08,927 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQRSlYB72EQ21a9w0sgHf7ywwq6emrogmTvG5PpJ626I9j1IbGUdtAcNFULg8A&s HTTP/1.1" 200 3274
+2024-01-27 13:43:08,929 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQRSlYB72EQ21a9w0sgHf7ywwq6emrogmTvG5PpJ626I9j1IbGUdtAcNFULg8A&s HTTP/1.1" 200 3274
+2024-01-27 13:43:08,929 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:08,929 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,062 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,196 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRgG_Gy38N31udn2AuQxy7KjG9RESfWnnPiML5Eq-OIbHEZOYdqu__WPBqEHA&s HTTP/1.1" 200 2303
+2024-01-27 13:43:09,196 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,232 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRgG_Gy38N31udn2AuQxy7KjG9RESfWnnPiML5Eq-OIbHEZOYdqu__WPBqEHA&s HTTP/1.1" 200 2303
+2024-01-27 13:43:09,234 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,330 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQC74cBCf8KpgUHPtIeZa1RbFVAQveVmmmuGWqXtD1RNZmWwj0RVdHyhsU3jps&s HTTP/1.1" 200 3410
+2024-01-27 13:43:09,332 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,496 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRw5CaK2QkhDAHDBwBPZu_v7_dlNAoAECy-UyjDWG1kSB-rCJHyn6oR9WpGzEg&s HTTP/1.1" 200 3356
+2024-01-27 13:43:09,496 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,496 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRw5CaK2QkhDAHDBwBPZu_v7_dlNAoAECy-UyjDWG1kSB-rCJHyn6oR9WpGzEg&s HTTP/1.1" 200 3356
+2024-01-27 13:43:09,496 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,557 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQTMbhxfQmu-06Ry-IEdVHPsTACp78_55QQ5DYre9q3xHw-A0nyt8gzcTlNcVY&s HTTP/1.1" 200 2779
+2024-01-27 13:43:09,558 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,777 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT1OimMrWYss47FTlDUVkdBFHrTgUTUqzAGN86u1lRx79Fjs_XIHPaatfibH2g&s HTTP/1.1" 200 4393
+2024-01-27 13:43:09,780 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,807 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSE_PjQJqKyyCO-QyxWdPdidHL08CDswGGmqyFbPJInZ2fE0vvtpSUz-dNrxQ&s HTTP/1.1" 200 2916
+2024-01-27 13:43:09,809 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:09,813 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSE_PjQJqKyyCO-QyxWdPdidHL08CDswGGmqyFbPJInZ2fE0vvtpSUz-dNrxQ&s HTTP/1.1" 200 2916
+2024-01-27 13:43:09,815 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,029 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR1z-vcFZ5BeECGhcwlmL0er3cx8JGEuIhxgTbkxsbGazFhqL_qs1YidwWwRo0&s HTTP/1.1" 200 1951
+2024-01-27 13:43:10,031 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,106 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ7pVU6KFWTIKAyAUQQKEeY1pR6k0NaTbsOyVux2OqfFM_GefUeX46uayZ60g&s HTTP/1.1" 200 4056
+2024-01-27 13:43:10,108 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,132 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ7pVU6KFWTIKAyAUQQKEeY1pR6k0NaTbsOyVux2OqfFM_GefUeX46uayZ60g&s HTTP/1.1" 200 4056
+2024-01-27 13:43:10,134 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,240 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRGCc2jM4LzkKkgic5aVS7gBQj3cWwj5Zex0SAb0W6HO12nblKSJhfLOP2lih0&s HTTP/1.1" 200 4395
+2024-01-27 13:43:10,242 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,436 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQQLRwjzPJW7LdWcgLgfiAfwmgkTkc1xV0jUmpBfQQhDiNTwpNwKAsp1LOZg&s HTTP/1.1" 200 2980
+2024-01-27 13:43:10,438 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,447 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQQLRwjzPJW7LdWcgLgfiAfwmgkTkc1xV0jUmpBfQQhDiNTwpNwKAsp1LOZg&s HTTP/1.1" 200 2980
+2024-01-27 13:43:10,449 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,506 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTPO1vD04yoVotUBsOFXgOeO5Qa8sO_ZHSi1OkXUXASSW9Brl_s9EXy0BvCEw&s HTTP/1.1" 200 2937
+2024-01-27 13:43:10,508 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,722 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRe1wNWSEViPehbETj2Y8FO_t-YySlJOGI1kiUjr0ieQqg0nq9FcFaWDedwRSE&s HTTP/1.1" 200 3029
+2024-01-27 13:43:10,724 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,729 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQuPVEMCWosL881daK-q70Yw3w8VTZnzqIhJPMslQj5WZVkpuCI-30lP0heyA&s HTTP/1.1" 200 4968
+2024-01-27 13:43:10,729 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:10,729 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRe1wNWSEViPehbETj2Y8FO_t-YySlJOGI1kiUjr0ieQqg0nq9FcFaWDedwRSE&s HTTP/1.1" 200 3029
+2024-01-27 13:43:10,729 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,014 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQRSlYB72EQ21a9w0sgHf7ywwq6emrogmTvG5PpJ626I9j1IbGUdtAcNFULg8A&s HTTP/1.1" 200 3274
+2024-01-27 13:43:11,016 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,048 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQZReUNC55ZSDVPzVPm7dehKmKd1gwkNSB9ccBqTErg5sdX8qv9EEQZhWqyeQ&s HTTP/1.1" 200 3087
+2024-01-27 13:43:11,057 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,058 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQZReUNC55ZSDVPzVPm7dehKmKd1gwkNSB9ccBqTErg5sdX8qv9EEQZhWqyeQ&s HTTP/1.1" 200 3087
+2024-01-27 13:43:11,060 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,269 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRgG_Gy38N31udn2AuQxy7KjG9RESfWnnPiML5Eq-OIbHEZOYdqu__WPBqEHA&s HTTP/1.1" 200 2303
+2024-01-27 13:43:11,273 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,404 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYw-gM50mxuQ558pvra9N_eGRJjNuRsJUFNkDh9EiRU2-eSEBNwdUF-Xp6H3U&s HTTP/1.1" 200 3190
+2024-01-27 13:43:11,405 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYw-gM50mxuQ558pvra9N_eGRJjNuRsJUFNkDh9EiRU2-eSEBNwdUF-Xp6H3U&s HTTP/1.1" 200 3190
+2024-01-27 13:43:11,408 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,408 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,562 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRw5CaK2QkhDAHDBwBPZu_v7_dlNAoAECy-UyjDWG1kSB-rCJHyn6oR9WpGzEg&s HTTP/1.1" 200 3356
+2024-01-27 13:43:11,577 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,686 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSJnaXPEn47WdLKPFheij2XF6SDf_7fsmttfpRtFwJP_ps96g8kZ8MWuybZDw&s HTTP/1.1" 200 4941
+2024-01-27 13:43:11,687 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,704 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSJnaXPEn47WdLKPFheij2XF6SDf_7fsmttfpRtFwJP_ps96g8kZ8MWuybZDw&s HTTP/1.1" 200 4941
+2024-01-27 13:43:11,706 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:11,806 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSE_PjQJqKyyCO-QyxWdPdidHL08CDswGGmqyFbPJInZ2fE0vvtpSUz-dNrxQ&s HTTP/1.1" 200 2916
+2024-01-27 13:43:11,808 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,020 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQJCbSP0HBVIw9MaK9Bx056WJSGq3s1AQxH1JQ-Re1TMb_He5MWdbMyvMT86Q&s HTTP/1.1" 200 2313
+2024-01-27 13:43:12,022 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQJCbSP0HBVIw9MaK9Bx056WJSGq3s1AQxH1JQ-Re1TMb_He5MWdbMyvMT86Q&s HTTP/1.1" 200 2313
+2024-01-27 13:43:12,023 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,024 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,085 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ7pVU6KFWTIKAyAUQQKEeY1pR6k0NaTbsOyVux2OqfFM_GefUeX46uayZ60g&s HTTP/1.1" 200 4056
+2024-01-27 13:43:12,087 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,329 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ0k1kGbtgdENFEOIPzpJBCNFpynzDm5GKaBDRq041lzjW9xwm8oL9xunmPGCg&s HTTP/1.1" 200 8411
+2024-01-27 13:43:12,329 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,347 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQQLRwjzPJW7LdWcgLgfiAfwmgkTkc1xV0jUmpBfQQhDiNTwpNwKAsp1LOZg&s HTTP/1.1" 200 2980
+2024-01-27 13:43:12,347 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ0k1kGbtgdENFEOIPzpJBCNFpynzDm5GKaBDRq041lzjW9xwm8oL9xunmPGCg&s HTTP/1.1" 200 8411
+2024-01-27 13:43:12,347 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,347 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,618 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSDhyIZTwsD9J6r7xJ7WxxxxqoTnSusowaKxGPofHVvoehmgN9L65nUSjk2eow&s HTTP/1.1" 200 2710
+2024-01-27 13:43:12,622 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSDhyIZTwsD9J6r7xJ7WxxxxqoTnSusowaKxGPofHVvoehmgN9L65nUSjk2eow&s HTTP/1.1" 200 2710
+2024-01-27 13:43:12,624 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRe1wNWSEViPehbETj2Y8FO_t-YySlJOGI1kiUjr0ieQqg0nq9FcFaWDedwRSE&s HTTP/1.1" 200 3029
+2024-01-27 13:43:12,626 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:12,881 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQZReUNC55ZSDVPzVPm7dehKmKd1gwkNSB9ccBqTErg5sdX8qv9EEQZhWqyeQ&s HTTP/1.1" 200 3087
+2024-01-27 13:43:12,883 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:13,096 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYw-gM50mxuQ558pvra9N_eGRJjNuRsJUFNkDh9EiRU2-eSEBNwdUF-Xp6H3U&s HTTP/1.1" 200 3190
+2024-01-27 13:43:13,112 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:13,313 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSJnaXPEn47WdLKPFheij2XF6SDf_7fsmttfpRtFwJP_ps96g8kZ8MWuybZDw&s HTTP/1.1" 200 4941
+2024-01-27 13:43:13,313 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:13,542 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQJCbSP0HBVIw9MaK9Bx056WJSGq3s1AQxH1JQ-Re1TMb_He5MWdbMyvMT86Q&s HTTP/1.1" 200 2313
+2024-01-27 13:43:13,544 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:13,783 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ0k1kGbtgdENFEOIPzpJBCNFpynzDm5GKaBDRq041lzjW9xwm8oL9xunmPGCg&s HTTP/1.1" 200 8411
+2024-01-27 13:43:13,791 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:43:14,049 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSDhyIZTwsD9J6r7xJ7WxxxxqoTnSusowaKxGPofHVvoehmgN9L65nUSjk2eow&s HTTP/1.1" 200 2710
+2024-01-27 13:43:14,613 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:43:14] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:43:14,661 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:43:14] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:43:14,662 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:43:14] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:47:57,716 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.106.0.186:8000
+2024-01-27 13:47:57,716 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-27 13:48:04,338 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:48:04] "GET / HTTP/1.1" 200 -
+2024-01-27 13:48:04,547 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:48:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-27 13:48:04,547 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:48:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-27 13:48:04,575 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:48:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-27 13:48:11,689 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:48:12,113 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=doctor&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:48:12,670 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:13,315 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYGl0vUL7Fb96irPukjL2ylqz_bRFJ9HyAW968glkyLiNthrY9mhZz5SlwGg&s HTTP/1.1" 200 3395
+2024-01-27 13:48:13,315 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:13,630 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQTMbhxfQmu-06Ry-IEdVHPsTACp78_55QQ5DYre9q3xHw-A0nyt8gzcTlNcVY&s HTTP/1.1" 200 2779
+2024-01-27 13:48:13,630 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:13,946 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTjxOm5YE9DzWWuYcD1Q2Cmf1kpgPQGB5E1EgauUqwTjTr4tqJtOORTAr4f8Ds&s HTTP/1.1" 200 3537
+2024-01-27 13:48:13,949 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:14,315 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSlRi3NtvZoHUicHvsfm9_-Gq2CvzbJpi8TAsaYMZPvDqnU5xMUjhaAXcUSfLY&s HTTP/1.1" 200 3177
+2024-01-27 13:48:14,315 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:14,698 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTdE1ToMqPbziRiv7l7Sql8co-cE6rAqwcmgZwQWWeAhur16TjEzRijUoef9Sk&s HTTP/1.1" 200 3048
+2024-01-27 13:48:14,698 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:15,048 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSAcjn9o657b0DeZ9KUe4pzHbdDhESCTpKAcPsFi0cbYCA2oxzG9_q7i5p7jvs&s HTTP/1.1" 200 1698
+2024-01-27 13:48:15,063 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:15,410 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQR3ZC9k3L-Wrb9Ac5DGdUHBQEEK-hEzt9yEFuMkwhiIgqJkdNBqh5Ig3GOQg&s HTTP/1.1" 200 4726
+2024-01-27 13:48:15,412 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:15,715 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTSL8mrObSL9gJYpbVtT3LfmVlrPdLDYaGYYStKorAzP4hMmOe2AQaAiOFpEqk&s HTTP/1.1" 200 4994
+2024-01-27 13:48:15,715 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:16,121 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ6umYsdJPG5sAGQ46vcd01i1enucyFSPrwSW2eMGLxIx5OddDM6ERteTJzxOk&s HTTP/1.1" 200 4505
+2024-01-27 13:48:16,123 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:16,417 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSjJceMNqHD1EezB4pzxAHd36vY2JHK1S1UQO7I_CKIANNGsSSY6d6DqWoJ3w&s HTTP/1.1" 200 5170
+2024-01-27 13:48:16,419 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:16,718 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ2RQVFwwvzjEhE04z6XZxr4mgdiJIFUvKt4Qtg0kHaH0W0PgdYB4J8421EGNE&s HTTP/1.1" 200 3802
+2024-01-27 13:48:16,720 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:17,101 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRkku2XBcWX3janK7HElROBuGq9hN2eb4KWHRYrtAEgxozGuOFPpQXrb7AF9A&s HTTP/1.1" 200 2208
+2024-01-27 13:48:17,103 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:17,694 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR8esHn0YU3BI8bQfF49npg0nPqduulw5lKvSofIzQQjfs9qkHrgB3YF1zRQQ&s HTTP/1.1" 200 3568
+2024-01-27 13:48:17,696 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:17,981 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRgG_Gy38N31udn2AuQxy7KjG9RESfWnnPiML5Eq-OIbHEZOYdqu__WPBqEHA&s HTTP/1.1" 200 2303
+2024-01-27 13:48:17,981 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:18,330 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS3wQhe_qADQRRZP00rdPX8gDPLcNQoZuhYWikHXCbOveATgbQXC6EUcRysEvg&s HTTP/1.1" 200 4751
+2024-01-27 13:48:18,332 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:18,669 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT0-n2vE6E6m91zEJa2eO8njkTX-YsAtVE-4RUZg8zavmjRPueGrGDc-i4o_gI&s HTTP/1.1" 200 3478
+2024-01-27 13:48:18,671 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:18,999 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRFdTzVTn683kVXl5T9ZpQ7-RttEDqHBYPTmKSdFvYKbhx1x2M05eUt1MA3rw&s HTTP/1.1" 200 5137
+2024-01-27 13:48:19,001 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:19,296 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS-f59fQPb5QRHu9qNvSs8cGoyH1tCo-U58a0uLNB4xjHzu-1Houojg0-tZbHI&s HTTP/1.1" 200 2500
+2024-01-27 13:48:19,296 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:19,613 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQBimJii2Cx_SPlRiqCaP1Td-WarWK4oydERusZk3Z9y0n_W72KHcjZDTe1A&s HTTP/1.1" 200 8780
+2024-01-27 13:48:19,617 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:48:20,263 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS8O0acNS5kTvGRKxJUpi7riIyeESSc1dNsfGLTbUcF2FmsBL4TlxPnf_yuTw&s HTTP/1.1" 200 3449
+2024-01-27 13:48:22,502 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:48:22] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:49:13,388 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.106.0.186:8000
+2024-01-27 13:49:13,389 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-27 13:49:18,123 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:49:18] "GET / HTTP/1.1" 200 -
+2024-01-27 13:49:18,230 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:49:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-27 13:49:18,232 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:49:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-27 13:49:24,248 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:49:24,726 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=doctor&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:49:24,976 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:25,238 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYGl0vUL7Fb96irPukjL2ylqz_bRFJ9HyAW968glkyLiNthrY9mhZz5SlwGg&s HTTP/1.1" 200 3395
+2024-01-27 13:49:25,241 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:25,559 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQTMbhxfQmu-06Ry-IEdVHPsTACp78_55QQ5DYre9q3xHw-A0nyt8gzcTlNcVY&s HTTP/1.1" 200 2779
+2024-01-27 13:49:25,560 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:25,777 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTjxOm5YE9DzWWuYcD1Q2Cmf1kpgPQGB5E1EgauUqwTjTr4tqJtOORTAr4f8Ds&s HTTP/1.1" 200 3537
+2024-01-27 13:49:25,778 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:25,999 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSlRi3NtvZoHUicHvsfm9_-Gq2CvzbJpi8TAsaYMZPvDqnU5xMUjhaAXcUSfLY&s HTTP/1.1" 200 3177
+2024-01-27 13:49:26,001 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:26,270 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTdE1ToMqPbziRiv7l7Sql8co-cE6rAqwcmgZwQWWeAhur16TjEzRijUoef9Sk&s HTTP/1.1" 200 3048
+2024-01-27 13:49:26,273 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:26,902 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSAcjn9o657b0DeZ9KUe4pzHbdDhESCTpKAcPsFi0cbYCA2oxzG9_q7i5p7jvs&s HTTP/1.1" 200 1698
+2024-01-27 13:49:26,905 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:28,164 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQR3ZC9k3L-Wrb9Ac5DGdUHBQEEK-hEzt9yEFuMkwhiIgqJkdNBqh5Ig3GOQg&s HTTP/1.1" 200 4726
+2024-01-27 13:49:28,173 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:28,496 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTSL8mrObSL9gJYpbVtT3LfmVlrPdLDYaGYYStKorAzP4hMmOe2AQaAiOFpEqk&s HTTP/1.1" 200 4994
+2024-01-27 13:49:28,498 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:28,737 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ6umYsdJPG5sAGQ46vcd01i1enucyFSPrwSW2eMGLxIx5OddDM6ERteTJzxOk&s HTTP/1.1" 200 4505
+2024-01-27 13:49:28,739 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:28,951 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSjJceMNqHD1EezB4pzxAHd36vY2JHK1S1UQO7I_CKIANNGsSSY6d6DqWoJ3w&s HTTP/1.1" 200 5170
+2024-01-27 13:49:28,954 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:29,178 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ2RQVFwwvzjEhE04z6XZxr4mgdiJIFUvKt4Qtg0kHaH0W0PgdYB4J8421EGNE&s HTTP/1.1" 200 3802
+2024-01-27 13:49:29,178 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:29,465 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRkku2XBcWX3janK7HElROBuGq9hN2eb4KWHRYrtAEgxozGuOFPpQXrb7AF9A&s HTTP/1.1" 200 2208
+2024-01-27 13:49:29,468 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:29,693 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR8esHn0YU3BI8bQfF49npg0nPqduulw5lKvSofIzQQjfs9qkHrgB3YF1zRQQ&s HTTP/1.1" 200 3568
+2024-01-27 13:49:29,696 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:29,962 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRgG_Gy38N31udn2AuQxy7KjG9RESfWnnPiML5Eq-OIbHEZOYdqu__WPBqEHA&s HTTP/1.1" 200 2303
+2024-01-27 13:49:29,965 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:30,194 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS3wQhe_qADQRRZP00rdPX8gDPLcNQoZuhYWikHXCbOveATgbQXC6EUcRysEvg&s HTTP/1.1" 200 4751
+2024-01-27 13:49:30,196 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:30,462 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT0-n2vE6E6m91zEJa2eO8njkTX-YsAtVE-4RUZg8zavmjRPueGrGDc-i4o_gI&s HTTP/1.1" 200 3478
+2024-01-27 13:49:30,464 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:30,744 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRFdTzVTn683kVXl5T9ZpQ7-RttEDqHBYPTmKSdFvYKbhx1x2M05eUt1MA3rw&s HTTP/1.1" 200 5137
+2024-01-27 13:49:30,744 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:31,035 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS-f59fQPb5QRHu9qNvSs8cGoyH1tCo-U58a0uLNB4xjHzu-1Houojg0-tZbHI&s HTTP/1.1" 200 2500
+2024-01-27 13:49:31,038 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:31,317 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQBimJii2Cx_SPlRiqCaP1Td-WarWK4oydERusZk3Z9y0n_W72KHcjZDTe1A&s HTTP/1.1" 200 8780
+2024-01-27 13:49:31,323 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:49:31,586 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS8O0acNS5kTvGRKxJUpi7riIyeESSc1dNsfGLTbUcF2FmsBL4TlxPnf_yuTw&s HTTP/1.1" 200 3449
+2024-01-27 13:49:35,233 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:49:35] "POST /review HTTP/1.1" 200 -
+2024-01-27 13:59:29,769 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.106.0.186:8000
+2024-01-27 13:59:29,769 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-27 13:59:43,297 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:59:43] "GET / HTTP/1.1" 200 -
+2024-01-27 13:59:43,416 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:59:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-27 13:59:43,416 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 13:59:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-27 13:59:55,192 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 13:59:55,601 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=ladydoctor&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 13:59:55,986 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:56,304 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ7pVU6KFWTIKAyAUQQKEeY1pR6k0NaTbsOyVux2OqfFM_GefUeX46uayZ60g&s HTTP/1.1" 200 4056
+2024-01-27 13:59:56,307 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:56,664 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRt5zC4TIGqOkKKRrMMbIKo_CewlvLaDrdg-BWxtpybnXgYTNnTrCvP2TKM5w&s HTTP/1.1" 200 2008
+2024-01-27 13:59:56,667 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:57,016 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcR9-tE3uN8ruvngXyjQY3EPhpfd7Y9jbLF64FldhejL4_lGEdBS1QUGQGIvLA&s HTTP/1.1" 200 2135
+2024-01-27 13:59:57,018 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:57,400 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTomXQnhwKmsTAGili8i425Gsu7I2FgKCuzbytHh5-0FvWdfQ3SB7cq7B2x2gQ&s HTTP/1.1" 200 3789
+2024-01-27 13:59:57,419 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:57,752 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQRSlYB72EQ21a9w0sgHf7ywwq6emrogmTvG5PpJ626I9j1IbGUdtAcNFULg8A&s HTTP/1.1" 200 3274
+2024-01-27 13:59:57,769 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:58,100 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSRNBZucAPAN6wJ5c86-yaBcO3_wUqPFV6Ng-ppb_fQXXpS_Y3wq172FqDHXrc&s HTTP/1.1" 200 2277
+2024-01-27 13:59:58,103 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:58,443 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSLN71S-IBMC5I_4kfBM0klpvjGI3Bl3nyNPhuHU7INGHJIGNMSrVWIwArp2A&s HTTP/1.1" 200 3001
+2024-01-27 13:59:58,446 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:58,752 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTmfdZXu0mn7mcB7NeSEQJYtqfzfn7VEtH8ESpiUbhqCNhiHBXXF_fKXqQT-4M&s HTTP/1.1" 200 2532
+2024-01-27 13:59:58,754 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:59,085 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS-f59fQPb5QRHu9qNvSs8cGoyH1tCo-U58a0uLNB4xjHzu-1Houojg0-tZbHI&s HTTP/1.1" 200 2500
+2024-01-27 13:59:59,091 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:59,435 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRm7IMFmpDaUvcshRyVF35ilYcJDw7CZjM1M62nxi2OVd_ssZyCUX9-n8Z--A&s HTTP/1.1" 200 4469
+2024-01-27 13:59:59,439 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 13:59:59,778 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTagUA44YLSycTmG9OaXo3OsG_o9HSnLdiJWfkl-RKGAXJYiXItyfztJPyIQg&s HTTP/1.1" 200 2537
+2024-01-27 13:59:59,781 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:00,067 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSFGgIMozimJ6okW65bhcsXZdjI5LW9ZcaLbgIiQ5fNRatySsaHlk6sBJnANtg&s HTTP/1.1" 200 2062
+2024-01-27 14:00:00,067 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:00,569 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRI_AQkA96WHq-rIQf5Utj5xyy6EUgMWJaX4bVAP5fYOezDgVfdshYwTYeyhEQ&s HTTP/1.1" 200 4275
+2024-01-27 14:00:00,585 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:00,891 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcT7nNkAOWTRXkV_PYsxVWzuyMCFrXtnUuwMJ36OmTfKN6g_jh-rldRLFfzyf6Q&s HTTP/1.1" 200 4250
+2024-01-27 14:00:00,893 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:01,190 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcS6L6HAzXJA1Zcy4UmgGCovckyiXajL6-9mn3g65TWFqbAP8YhF6saacGL8q6A&s HTTP/1.1" 200 3945
+2024-01-27 14:00:01,192 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:01,478 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSOGo1CgvKa0JFSUZvmGQE3IFxbQ7VNfunhg8wLfHxxkhaZ6lx7doHKkrDO0A&s HTTP/1.1" 200 3226
+2024-01-27 14:00:01,480 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:01,734 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTDOEZvK-zvekwWD2j2kKCh50SOHGen8y8HZRqSv6FOfLUyvei6eb-9uCLebg&s HTTP/1.1" 200 2048
+2024-01-27 14:00:01,734 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:02,108 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQLWXIvx2XZZky3QhotcSutXJLbHl9iCbYkm9Sj9Cjw0g1OjMCdAuqEuP7wNfw&s HTTP/1.1" 200 3429
+2024-01-27 14:00:02,111 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:02,376 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQ5qOOYDqcO3ZJM5tLWxMluKGBvP4sq5vzAC-C9vMdwLOq6Dd_PdjQE_eyYWQ&s HTTP/1.1" 200 2163
+2024-01-27 14:00:02,381 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:00:02,733 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRx8abLsp2-6dvF4S1kIjtLAspXuRxGW8l6rt9SDuqRAqsShshDJBqCZx-oPQ&s HTTP/1.1" 200 3953
+2024-01-27 14:00:04,072 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 14:00:04] "POST /review HTTP/1.1" 200 -
+2024-01-27 14:00:36,097 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.106.0.186:8000
+2024-01-27 14:00:36,097 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-27 14:00:42,555 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 14:00:42] "GET / HTTP/1.1" 200 -
+2024-01-27 14:00:42,667 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 14:00:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-27 14:00:42,667 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 14:00:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-27 14:01:37,918 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-01-27 14:01:38,668 urllib3.connectionpool DEBUG https://www.google.com:443 "GET /search?q=maledoctor&tbm=isch&ved=2ahUKEwigmPiI0siDAxWK-TgGHTkCDKUQ2-cCegQIABAA&oq=ais&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoOCAAQgAQQigUQsQMQgwFQhgVY-RtgwitoAHAAeASAAZUBiAHnDJIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=GzeZZeCeGYrz4-EPuYSwqAo&bih=756&biw=767 HTTP/1.1" 200 None
+2024-01-27 14:01:39,129 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:39,478 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRIErjKTpW0dx8v89FzQBgPNU-eDRUr2r-j9jZ-OYTGLELizsqyqFeIMBuxBA&s HTTP/1.1" 200 1853
+2024-01-27 14:01:39,480 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:39,843 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRe1wNWSEViPehbETj2Y8FO_t-YySlJOGI1kiUjr0ieQqg0nq9FcFaWDedwRSE&s HTTP/1.1" 200 3029
+2024-01-27 14:01:39,847 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:40,191 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTnS019zQoSy7MU472KhNlOIodl7CDTk94HjGv6Y1XOAaSI8Ar_hr0hRUlAcOE&s HTTP/1.1" 200 2516
+2024-01-27 14:01:40,194 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:40,529 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQKA4XukXVU0wtEAj0RrU5bfxGfJdw-8mUL3Tz8XuqtCbJrMoiMCiJX8vnbgqE&s HTTP/1.1" 200 2335
+2024-01-27 14:01:40,529 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:40,862 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRujYDH7yJ3gohj3Y8xffhs2fVUvxWyrTOaxDHPw8idCAIiqosdeXQN4hoXgg&s HTTP/1.1" 200 2741
+2024-01-27 14:01:40,862 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:41,179 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTTsrn4HGEAveNiqnB3l7SuAa6iG2EcEE3C9x78FTfYXe-l68UQrfrzymszqvQ&s HTTP/1.1" 200 1998
+2024-01-27 14:01:41,185 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:41,547 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRIDqO94nAlrTXveg_tHEwJeU1tT6RliQdL1FQlWNo1qY1DGDJKNk0kZMvMMIg&s HTTP/1.1" 200 1822
+2024-01-27 14:01:41,547 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:41,883 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcThxObMGvBOZ6qWEdNPHBGaX3wizG3HJbUbKNypsWIDXyVE66cX__cMZp9msg&s HTTP/1.1" 200 2232
+2024-01-27 14:01:41,897 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:42,693 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSYGl0vUL7Fb96irPukjL2ylqz_bRFJ9HyAW968glkyLiNthrY9mhZz5SlwGg&s HTTP/1.1" 200 3395
+2024-01-27 14:01:43,148 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:43,446 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSIRqyeEp-oX9O5WgAC5mAT-zaLvLaa0xO-bfUd5JudQZuIcULQ9IBSBCp1cA&s HTTP/1.1" 200 2621
+2024-01-27 14:01:43,446 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:43,734 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTLwaQihUowlYqQqsaz15Cj6Nw3UgENpTBe7aka6TFGIg4e3aoPBoKX76u7FMA&s HTTP/1.1" 200 2453
+2024-01-27 14:01:43,737 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:44,095 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRr6eZd5cvWtAG-3wZfGaQ38Cx5f654981hiEWTtmWXIEEg96kzAISBSoPeow&s HTTP/1.1" 200 4041
+2024-01-27 14:01:44,095 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:44,532 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQqMpAh62E6vLrwm2x6MiZdKC657YCFG4dKMOvYsHLZkLR0R7G7oCilSmW4cQ&s HTTP/1.1" 200 2756
+2024-01-27 14:01:44,535 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:44,874 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRHg3pK6vrbf_92lSEhIb9v30MV8C1re0JBUc25dC7ofYnt-7pq1dWe0TV_qw&s HTTP/1.1" 200 3966
+2024-01-27 14:01:44,876 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:45,475 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcTyIioh78jlLk34lE1gV0NxkUljtjdP5FlR74rCAiR5XPE_euFFGGs_0sOLrD4&s HTTP/1.1" 200 4421
+2024-01-27 14:01:45,486 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:45,828 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcSQtaLgX0uPH3Lq_eoI4qxos1ex7owF27egAINzUuB3cvJoCKjR4T5DeHwX1mA&s HTTP/1.1" 200 1645
+2024-01-27 14:01:46,179 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:46,491 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQC74cBCf8KpgUHPtIeZa1RbFVAQveVmmmuGWqXtD1RNZmWwj0RVdHyhsU3jps&s HTTP/1.1" 200 3410
+2024-01-27 14:01:46,491 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:50,414 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRNrMiVWUaYwgHKIVI7VW4OOpsnxssuAzzNemBrqRYG3Jv0rOA8-6fyY2Z-8g&s HTTP/1.1" 200 2747
+2024-01-27 14:01:50,414 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:50,763 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcRQT8Uw9uSL_0yo8_C8X55n5pu-pgITjBmkFx2rNrjXkJdZK0M0bqAU7G6nkoM&s HTTP/1.1" 200 3626
+2024-01-27 14:01:50,763 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): encrypted-tbn0.gstatic.com:443
+2024-01-27 14:01:51,033 urllib3.connectionpool DEBUG https://encrypted-tbn0.gstatic.com:443 "GET /images?q=tbn:ANd9GcQkANrrlk7A72e14_f4hSUuyK5c7ewkMz_DX2jUBgVwsbZ8Zt1cWJ65v53CINI&s HTTP/1.1" 200 3929
+2024-01-27 14:01:52,708 werkzeug INFO 10.106.0.186 - - [27/Jan/2024 14:01:52] "POST /review HTTP/1.1" 200 -

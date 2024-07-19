@@ -1,0 +1,16 @@
+2024-01-15 17:53:25,158 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.156.144:5000
+2024-01-15 17:53:25,158 werkzeug INFO [33mPress CTRL+C to quit[0m
+2024-01-15 17:53:57,679 werkzeug INFO 127.0.0.1 - - [15/Jan/2024 17:53:57] "GET / HTTP/1.1" 200 -
+2024-01-15 17:53:57,823 werkzeug INFO 127.0.0.1 - - [15/Jan/2024 17:53:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-15 17:53:57,836 werkzeug INFO 127.0.0.1 - - [15/Jan/2024 17:53:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-15 17:53:57,956 werkzeug INFO 127.0.0.1 - - [15/Jan/2024 17:53:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-15 17:54:09,339 root INFO name
+2024-01-15 17:54:09,339 root INFO Ratings
+2024-01-15 17:54:09,339 root INFO cmmentHeading
+2024-01-15 17:54:09,339 root ERROR 'NoneType' object has no attribute 'div'
+2024-01-15 17:54:09,741 root INFO My finall Result is Saved in MongoDB 
+2024-01-15 17:54:09,741 root ERROR result.html
+2024-01-15 17:54:09,741 werkzeug INFO 127.0.0.1 - - [15/Jan/2024 17:54:09] "POST /review HTTP/1.1" 200 -
